@@ -1,4 +1,5 @@
 <!-- Masthead -->
+{% if site.data.menu.title == "Home" %}
 <header class="masthead text-white text-center">
   <div class="overlay"></div>
   <div class="container">
@@ -21,3 +22,37 @@
     </div>
   </div>
 </header>
+{% elsif site.data.menu.title == "About" %}
+<header class="masthead text-white text-center" style="background-image: url('assets/img/bg-showcase-3.jpg');">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h1 class="mb-5">About Us</h1>
+      </div>
+    </div>
+  </div>
+</header>
+{% elsif site.data.menu.title == "Services" %}
+<header class="masthead text-white text-center" style="background-image: url('assets/img/bg-showcase-2.jpg');">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h1 class="mb-5">Services</h1>
+      </div>
+    </div>
+  </div>
+</header>
+{% elsif site.data.menu.title == "Contact" %}
+<header class="masthead text-white text-center" style="background-image: url('assets/img/bg-showcase-1.jpg');">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h1 class="mb-5">Contact Us</h1>
+      </div>
+    </div>
+  </div>
+</header>
+{% endif %}
