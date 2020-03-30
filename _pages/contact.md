@@ -4,7 +4,7 @@ layout: page
 permalink: /contact/
 ---
 
-## Contact us
+## Email us
 
 ---
 
