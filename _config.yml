@@ -6,4 +6,4 @@ baseurl: /startbootstrap-landing-page
 include:
   - _pages
 
-permalink: https://theuiguru.github.io/startbootstrap-landing-page/blog/:year/:month/:day/:title
+permalink: startbootstrap-landing-page/blog/:year/:month/:day/:title
