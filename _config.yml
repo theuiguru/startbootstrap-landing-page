@@ -1,9 +1,9 @@
-title: Business Frontpage
-description: A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header.
+title: StartBootstrap Landing Page
+description: A landing page powered by StartBootstrap free templates.
 
 baseurl: /startbootstrap-landing-page
 
 include:
   - _pages
 
-permalink: /blog/:year/:month/:day/:title
+permalink: /startbootstrap-landing-page/blog/:year/:month/:day/:title
