@@ -5,3 +5,5 @@ baseurl: /startbootstrap-landing-page
 
 include:
   - _pages
+
+permalink: /blog/:year/:month/:day/:title
