@@ -4,4 +4,4 @@ markdown: kramdown
 baseurl: /startbootstrap-landing-page
 include:
   - _pages
-permalink: /blog/:year/:month/:day/:title
+permalink: ../blog/:year/:month/:day/:title
