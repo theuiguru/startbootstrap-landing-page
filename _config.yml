@@ -1,7 +1,13 @@
 title: StartBootstrap Landing Page
 description: A landing page powered by StartBootstrap free templates.
-markdown: kramdown
+
 baseurl: /startbootstrap-landing-page
+
 include:
   - _pages
+<<<<<<< HEAD
 permalink: ../blog/:year/:month/:day/:title
+=======
+
+permalink: startbootstrap-landing-page/blog/:year/:month/:day/:title
+>>>>>>> parent of 90cda46... blog and post pages updated
