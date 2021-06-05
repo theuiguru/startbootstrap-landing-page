@@ -32,6 +32,17 @@
     </div>
   </div>
 </header>
+{% elsif page.layout == "post" %}
+<header class="masthead text-white text-center" style="background-image: url('https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h1 class="mb-5">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</header>
 {% elsif page.title == "Contact" %}
 <header class="masthead text-white text-center" style="background-image: url('https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');">
   <div class="overlay"></div>
